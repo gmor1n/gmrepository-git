@@ -1,2 +1,2 @@
-# -gmrepository-git
+# gmrepository-git
 Laboratorio G
