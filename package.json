@@ -1,0 +1,21 @@
+{
+  "name": "-gmrepository-git",
+  "version": "1.0.0",
+  "description": "Laboratorio G",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmor1n/gmrepository-git.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/gmor1n/gmrepository-git/issues"
+  },
+  "homepage": "https://github.com/gmor1n/gmrepository-git#readme"
+}
