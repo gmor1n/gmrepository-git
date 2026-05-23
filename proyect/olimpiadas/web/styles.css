@@ -1,0 +1,79 @@
+/* Estilo tipo periódico antiguo */
+
+
+body {
+    background-color: #f4f1e1;
+    font-family: Georgia, "Times New Roman", serif;
+    margin: 40px;
+}
+
+
+/* Título principal */
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+/* Subtítulo */
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Sección principal */
+div {
+    margin-top: 40px;
+}
+
+/* Subtítulo de sección */
+h2 {
+    border-bottom: 2px solid black;
+}
+
+/* Lista medallero */
+ul {
+    list-style-type: none; /* quitar puntos */
+    padding: 0;
+}
+
+/* Elementos lista */
+li {
+    margin-bottom: 5px;
+}
+
+
+.contenedor {
+    display: flex;
+    gap: 20px;
+}
+
+.columna {
+    width: 50%;
+    text-align: justify;
+}
+
+
+.columna p {
+    margin-top: 10px;
+}
+
+
+.cabecera {
+    border-top: 5px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+
+
+hr {
+    border: none;
+    border-top: 2px solid black;
+    margin: 20px 0;
+}
+
+
+h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    letter-spacing: 2px;
+}
