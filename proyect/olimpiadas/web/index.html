@@ -1,58 +1,140 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Olimpiadas - Edición Especial</title>
+
+    <!-- ✅ FUENTES (esto estaba mal antes) -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+    <!-- ✅ CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<div class="cabecera">
-    <h1>Olympic Daily</h1>
-    <p>Edición especial de datos y protagonistas de la jornada.</p>
+<div class="hoja">
+
+    <!-- CABECERA -->
+    <header class="cabecera">
+
+        <div class="subcabecera">
+            <span>Edición especial</span>
+            <span>Datos & Visualización</span>
+            <span>Madrid · 2026</span>
+        </div>
+
+        <h1 class="logo-periodico">Olympic Daily</h1>
+
+        <p class="tagline">Illustrated Data Newspaper</p>
+
+    </header>
+
+
+    <!-- TITULAR -->
+    <section class="titular-principal">
+        <h2>AROUND THE WORLD IN OLYMPICS DATA</h2>
+    </section>
+
+
+    <!-- CONTENIDO -->
+    <main class="pagina">
+
+        <section class="portada">
+
+            <!-- IZQUIERDA -->
+            <article class="col izquierda">
+                <h3>Breaking</h3>
+                <p>
+                    China lidera el medallero en esta edición con resultados históricos en velocidad y natación.
+                </p>
+
+                <div class="grafico-mini">
+                    <strong>Mini gráfico</strong>
+                    <p>Visualización de apoyo.</p>
+                </div>
+
+                <p>
+                    El crecimiento refleja una evolución estratégica en las disciplinas clave.
+                </p>
+            </article>
+
+
+            <!-- CENTRO -->
+            <article class="col centro">
+
+                <div class="imagen-principal">
+                    <p>ESPACIO IMAGEN / GRÁFICO PRINCIPAL</p>
+                </div>
+
+                <h2 class="titulo-central">
+                    EL MEDALLERO DOMINA LA NARRATIVA
+                </h2>
+
+                <p>
+                    Los datos muestran una concentración de medallas en pocas delegaciones,
+                    con tendencias claras que se reflejan en el gráfico principal.
+                </p>
+
+                <div class="grafico-principal">
+                    <strong>Gráfico principal</strong>
+                    <p>Aquí irá Flourish integrado</p>
+                </div>
+
+            </article>
+
+
+            <!-- DERECHA -->
+            <article class="col derecha">
+
+                <h3>Medallero</h3>
+
+                <ul>
+                    <li>País A: 10 oros</li>
+                    <li>País B: 8 oros</li>
+                    <li>País C: 5 oros</li>
+                </ul>
+
+                <div class="grafico-secundario">
+                    <strong>Ranking</strong>
+                    <p>Gráfico comparativo</p>
+                </div>
+
+                <h3>Resumen</h3>
+
+                <p>
+                    Jornada intensa con récords y evolución en múltiples disciplinas.
+                </p>
+
+            </article>
+
+        </section>
+
+
+        <!-- BLOQUES INFERIORES -->
+        <section class="bloques-inferiores">
+
+            <article class="bloque">
+                <h3>Última hora</h3>
+                <p>Actualización de finales y resultados clave.</p>
+            </article>
+
+            <article class="bloque">
+                <h3>Disciplina destacada</h3>
+                <p>Análisis de rendimiento por deporte.</p>
+            </article>
+
+            <article class="bloque">
+                <h3>Tendencias</h3>
+                <p>Visualización de evolución histórica.</p>
+            </article>
+
+        </section>
+
+    </main>
+
 </div>
-
-<main class="pagina">
-    <section class="bloque-principal">
-        <article class="columna columna-noticia">
-            <h2>Noticia destacada</h2>
-            <p>China lidera el medallero en esta edición con grandes resultados y un avance histórico en pruebas de velocidad y natación.</p>
-            <div class="grafico-principal">
-                <strong>Gráfico principal</strong>
-                <p>Aquí se integrará el gráfico interactivo de Flourish como parte de la narrativa de datos.</p>
-            </div>
-            <p>La historia combina resultados, contexto y cifras para que el gráfico principal tenga sentido dentro de la noticia.</p>
-        </article>
-
-        <article class="columna columna-medallero">
-            <h2>Medallero general</h2>
-            <ul>
-                <li>País A: 10 medallas de oro</li>
-                <li>País B: 8 medallas de oro</li>
-                <li>País C: 5 medallas de oro</li>
-            </ul>
-            <div class="grafico-secundario">
-                <strong>Gráfico de ranking</strong>
-                <p>Espacio para un gráfico de barras o ranking integrado en el seguimiento del medallero.</p>
-            </div>
-            <h2>Resumen de la jornada</h2>
-            <p>Los atletas batieron récords en una jornada repleta de novedades. El texto y los gráficos trabajan juntos como en una portada clásica.</p>
-            <div class="grafico-mini">
-                <strong>Mini gráfico</strong>
-                <p>Espacio para una visualización complementaria de Flourish dentro de la columna.</p>
-            </div>
-        </article>
-    </section>
-
-    <section class="noticias-footer">
-        <article>
-            <h2>Última hora</h2>
-            <p>Próxima actualización: detalles de la final de atletismo y análisis en tiempo real.</p>
-        </article>
-    </section>
-</main>
 
 </body>
 </html>
