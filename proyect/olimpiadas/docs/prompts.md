@@ -123,3 +123,119 @@ Estructura del proyecto de Olimpiadas:
 - Ajustar espaciado y jerarquía (titulares, secciones, separadores).
 - Cuando haya embed real de Flourish: sustituir placeholder por el embed.
 - Commit por hitos (diseño base, placeholders, integración Flourish, etc.).
+
+
+# Prompts utilizados en el desarrollo
+
+## 🎯 Objetivo
+
+El objetivo de los prompts ha sido guiar la construcción progresiva de una experiencia visual tipo periódico, combinando diseño, estructura HTML y estilos CSS para lograr un resultado lo más realista posible.
+
+Se ha seguido un enfoque iterativo, ajustando cada elemento paso a paso (estructura, tipografía, fondo, efectos visuales), priorizando la simplicidad y el control de los cambios.
+
+---
+
+## 🧠 Enfoque general
+
+Se ha trabajado con prompts orientados a:
+
+- Construcción progresiva (sin cambios masivos)
+- Validación paso a paso
+- Mejora incremental del diseño
+- Separación clara de responsabilidades (HTML vs CSS)
+
+Cada iteración ha buscado solucionar un único problema concreto, evitando introducir complejidad innecesaria.
+
+---
+
+## 🔧 Tipos de prompts utilizados
+
+### 1. Estructura HTML
+
+Prompts enfocados en definir la base del layout:
+
+- Creación de cabecera de periódico
+- Organización en columnas
+- Separación de bloques de contenido
+- Jerarquía de titulares y texto
+
+Ejemplo:
+
+> "Hazme una estructura tipo periódico con cabecera, titular y tres columnas, manteniendo HTML sencillo"
+
+---
+
+### 2. Estilos CSS (layout)
+
+Prompts orientados a la distribución visual:
+
+- Uso de grid para columnas
+- Ajuste de márgenes y espacios
+- Centrado del contenido
+- Proporción tipo hoja vertical
+
+Ejemplo:
+
+> "Quiero que la página parezca una hoja de periódico, más alta que ancha y centrada"
+
+---
+
+### 3. Estilo visual (papel y realismo)
+
+Prompts centrados en mejorar el aspecto:
+
+- Fondo de papel envejecido
+- Textura y suciedad
+- Efecto de tinta imperfecta
+- Separación entre fondo y hoja
+
+Ejemplo:
+
+> "Haz un efecto de papel envejecido con textura y traspaso sutil"
+
+---
+
+### 4. Debugging y ajustes
+
+Prompts clave para corregir errores:
+
+- Problemas de rutas de imágenes
+- Conflictos en CSS
+- Elementos que ocupaban toda la pantalla
+- Ajuste del contenedor principal
+
+Ejemplo:
+
+> "No se ve la textura, revisa por qué el fondo ocupa toda la pantalla"
+
+---
+
+## ⚙️ Estrategia aplicada
+
+Se ha seguido una estrategia basada en:
+
+- Cambios controlados y aislados
+- Validación visual tras cada paso
+- Simplificación antes de añadir complejidad
+- Identificación de problemas reales (no asumir errores)
+
+Esto ha permitido mantener estabilidad en el diseño y evitar rupturas del layout.
+
+---
+
+## ✅ Resultado
+
+Gracias a este enfoque de prompting:
+
+- Se ha conseguido un diseño coherente tipo periódico
+- Se ha implementado una hoja visual separada del fondo
+- Se ha integrado una estética realista (papel + tinta)
+- Se ha mantenido un código limpio y estructurado
+
+---
+
+## 🚀 Posibles mejoras en prompts
+
+- Mayor reutilización de prompts tipo plantilla
+- Definición de prompts más genéricos para layout
+- Automatización de ajustes visuales repetitivos
